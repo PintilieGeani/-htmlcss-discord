@@ -13,6 +13,9 @@ a{
     text-decoration: none;
 
 }
+:root{
+    --color: #7289DA
+}
 
 /* Utils */
 .container{
@@ -214,6 +217,12 @@ h2{
 /* Fine main */
 
 /* Footer */
+.col-40-footer{
+    min-width: 40%;
+    padding-top: 25px; 
+    display: flex; 
+    align-items: center; 
+}
 
 .footer{
     justify-content: space-between;
@@ -223,4 +232,23 @@ h2{
 button {
     padding: 5px 10px;
     border: 1px dotted black;
+}
+ul{
+    list-style: none;
+    color: white;
+}
+ul a{
+    color: white;
+}
+.col-15 ul li{
+    margin: 10px;
+}
+.list-header{
+    color: var(--color);
+}
+.col-40-footer h3{
+    color: var(--color);
+}
+.col-40-footer p{
+    color: white;
 }

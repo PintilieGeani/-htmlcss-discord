@@ -5,6 +5,14 @@
     box-sizing: border-box;
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+
+}
 
 /* Utils */
 .container{
@@ -12,6 +20,14 @@
     width: 80%;
     margin: 0 auto;
 }
+
+.btn{
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
 
 hr{
     border: 1px solid lightblue;
@@ -40,6 +56,7 @@ hr{
 .bg-salmon{
     background-color: rgb(250, 128, 114);
 }
+/* debug */
 div{
     border: 1px dotted rgb(0, 0, 0);
 }
@@ -66,18 +83,25 @@ div{
 
 /* Header */
 .header{
-    background-color: rgb(127, 255, 212);
-    height: 100px;
-    padding: 35px 0px
+    background-color: #255EE9 ;
+    /* height: 100px; */
+    padding: 35px 0px;
+}
+.bg-header{
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .menu{
-    line-height: 30px;
+    /* line-height: 30px; */
+    
 }
 .logo{
     width: 20%;
     justify-content: flex-start;
-    align-items: center;
 }
+
 .lista{
     width: 60%;
     align-items: center;
@@ -94,6 +118,9 @@ div{
 }
 .lista ul li{
     margin: 0 10px;
+}
+.lista a{
+    color: white;
 }
 
 /* Fine Header */

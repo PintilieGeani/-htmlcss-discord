@@ -31,6 +31,7 @@ a{
     background-color: rgb(34, 33, 33);
     border-radius: 30px;
     color: white;
+    margin-left: 20px;
 }
 
 
@@ -103,17 +104,17 @@ div{
     
 }
 .logo{
-    width: 20%;
+    min-width: 20%;
     justify-content: flex-start;
 }
 
 .lista{
-    width: 60%;
+    min-width: 60%;
     align-items: center;
     justify-content: center;
 }
 .login{
-    width: 20%;
+    min-width: 20%;
     justify-content: flex-end;
     align-items: center;
 }
@@ -141,7 +142,7 @@ div{
 .banner-content{
 
     /* background-color: rgb(248, 104, 128); */
-    width: 50%;
+    min-width: 50%;
     text-align: center;
     color: white;
     padding: 30px 0;
@@ -159,16 +160,53 @@ div{
 
 /* Main */
 .col-60{
-    width: 60%;
+    display: flex;
+    min-width: 60%;
+    justify-content: flex-start;
+    align-items: baseline;
 }
+.col-60 img{
+    min-width: 100%;
+    align-items: center;
+}
+
 .col-40{
-    width: 40%;
+    min-width: 40%;
+    padding-top: 25px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+
+}
+.col-40 p{
+    line-height: 30px;
+
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-align: left;
+
+}
+.col-40-2{
+    min-width: 40%;
+    padding-top: 25px; 
+    display: flex;
+    flex-direction: column; 
+     align-items: center; 
+    justify-content: space;
+    align-content: stretch;
 }
 .col-100{
-    height: 600px;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .col-15{
-    width: 15%;
+    min-width: 15%;
 }
 .dotted-white{
     border: 1px dotted white;
